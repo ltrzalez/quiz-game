@@ -1,0 +1,22 @@
+[
+    {
+        "pregunta": "como se llama el ateo",
+        "respuestas" : [
+            { "respuesta": "Lautaro", "esCorrecta": true},
+            { "respuesta": "Lautaro", "esCorrecta": false},
+            { "respuesta": "Lautaro", "esCorrecta": false},
+            { "respuesta": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "cual no es un aka del ateo",
+        "respuestas" : [
+            { "respuesta": "Lautaro", "esCorrecta": true},
+            { "respuesta": "Lautaro", "esCorrecta": false},
+            { "respuesta": "Lautaro", "esCorrecta": false},
+            { "respuesta": "Lautaro", "esCorrecta": false}
+        ]
+    }
+
+]
+
