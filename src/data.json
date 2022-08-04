@@ -1,22 +1,301 @@
 [
     {
-        "pregunta": "como se llama el ateo",
+        "pregunta": "quien no esta en la banda de kakashi",
         "respuestas" : [
-            { "respuesta": "Lautaro", "esCorrecta": true},
-            { "respuesta": "Lautaro", "esCorrecta": false},
-            { "respuesta": "Lautaro", "esCorrecta": false},
-            { "respuesta": "Lautaro", "esCorrecta": false}
+            { "texto": "milei", "esCorrecta": true},
+            { "texto": "naruto", "esCorrecta": false},
+            { "texto": "sakura", "esCorrecta": false},
+            { "texto": "sasuke", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "cual no es un aka del ateo",
+        "pregunta": "",
         "respuestas" : [
-            { "respuesta": "Lautaro", "esCorrecta": true},
-            { "respuesta": "Lautaro", "esCorrecta": false},
-            { "respuesta": "Lautaro", "esCorrecta": false},
-            { "respuesta": "Lautaro", "esCorrecta": false}
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "quien no esta en la banda de kakashi",
+        "respuestas" : [
+            { "texto": "orichimaru", "esCorrecta": true},
+            { "texto": "naruto", "esCorrecta": false},
+            { "texto": "sakura", "esCorrecta": false},
+            { "texto": "sasuke", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "Jose", "esCorrecta": false},
+            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "",
+        "respuestas" : [
+            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
         ]
     }
-
 ]
 

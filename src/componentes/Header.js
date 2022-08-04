@@ -2,7 +2,7 @@ function Header () {
     return (
         <div >
           <header >
-              <h1>Preguntas</h1>
+              <h1>Responde la correcta</h1>
           </header>
         </div>
       );
