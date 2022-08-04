@@ -1,4 +1,16 @@
 # Getting Started with Create React App
+
+
+# TEMATICAS DE PREGUNTAS
+
+1. BOTANICA
+1. GEOLOGIA
+1. PORRO
+1. MONTAGNAS
+1. JUEGITOS DIABLO 2
+1. MUSICA
+1. TOLKIEN
+
 ## Available Scripts
 ### `npm start`
 
