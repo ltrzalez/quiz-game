@@ -20,8 +20,11 @@ function Quiz () {
   }
   
   return (
-      <div >
-          {/* //TODO: refactor this copy and paste */}
+      <div >          
+          {/* <div>{preguntasConRespuestas[currentQuestion].explicacion 
+            ? preguntasConRespuestas[currentQuestion].explicacion 
+            : ''}
+            </div> */}
         {showScore ? (
           <div className='score-section'>
             You scored {puntaje} out of {preguntasConRespuestas.length}

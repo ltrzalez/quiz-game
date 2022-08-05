@@ -1,29 +1,30 @@
 [
     {
-        "pregunta": "quien no esta en la banda de kakashi",
+        "pregunta": "¿quien no esta en la banda de kakashi?",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
-            { "texto": "milei", "esCorrecta": true},
+            { "texto": "sai", "esCorrecta": true},
             { "texto": "naruto", "esCorrecta": false},
             { "texto": "sakura", "esCorrecta": false},
             { "texto": "sasuke", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "",
+        "pregunta": "¿Que personaje de diablo 1 es el invocador?",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "Jose", "esCorrecta": false},
-            { "texto": "Pedro", "esCorrecta": false},
-            { "texto": "Lautaro", "esCorrecta": false}
+            { "texto": "guerrero", "esCorrecta": false},
+            { "texto": "mago", "esCorrecta": true},
+            { "texto": "rogue", "esCorrecta": false},
+            { "texto": "wirt", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "",
+        "pregunta": "¿Que significa 'Mellon' en el mundo de tolkien?",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
+            { "texto": "amigo", "esCorrecta": true},
+            { "texto": "enemigo", "esCorrecta": false},
+            { "texto": "aliado", "esCorrecta": false},
+            { "texto": "luz", "esCorrecta": false}
         ]
     },
     {
