@@ -1,7 +1,7 @@
 [
     {
         "pregunta": "¿quien no esta en la banda de kakashi?",
-        "explicacion": "explicacion es de la banda de yamato",
+        "explicacion": "lo que pasea es que es la banda de yamato",
         "respuestas" : [
             { "texto": "sai", "esCorrecta": true},
             { "texto": "naruto", "esCorrecta": false},
@@ -11,6 +11,7 @@
     },
     {
         "pregunta": "¿Que personaje de diablo 1 es el invocador?",
+        "explicacion": "el lore coloquial dice eso",
         "respuestas" : [
             { "texto": "guerrero", "esCorrecta": false},
             { "texto": "mago", "esCorrecta": true},
@@ -19,7 +20,8 @@
         ]
     },
     {
-        "pregunta": "¿Que significa 'Mellon' en el mundo de tolkien?",
+        "pregunta": "¿Que significa «Mellon» en el mundo de tolkien?",
+        "explicacion": "este dato es revelado en la entrada elfica a las ruinas de moria",
         "respuestas" : [
             { "texto": "amigo", "esCorrecta": true},
             { "texto": "enemigo", "esCorrecta": false},
@@ -28,7 +30,28 @@
         ]
     },
     {
-        "pregunta": "",
+        "pregunta": "Como se llama el album blanco de los beatles",
+        "explicacion": "como simplemente decia the beatles la tapa, se le empezo a decir el album blanco",
+        "respuestas" : [
+            { "texto": "The White Album", "esCorrecta": false},
+            { "texto": "White", "esCorrecta": false},
+            { "texto": "The Beatles", "esCorrecta": true},
+            { "texto": "Beatles", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "¿Cual no es un aka de Lautaro?",
+        "explicacion": "claro, en todo caso seria codeAssassin",
+        "respuestas" : [
+            { "texto": "asesino de codigo", "esCorrecta": true},
+            { "texto": "doctor lautaro", "esCorrecta": false},
+            { "texto": "sushiman knife", "esCorrecta": false},
+            { "texto": "el ateo", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "¿Cual es el nombre de el ateo?",
+        "explicacion": "y no tiene segundo nombre",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "Jose", "esCorrecta": false},
@@ -38,6 +61,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "doctor lautaro", "esCorrecta": false},
@@ -47,15 +71,17 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
+            { "texto": "verdad", "esCorrecta": false},
             { "texto": "Jose", "esCorrecta": false},
             { "texto": "Pedro", "esCorrecta": false},
-            { "texto": "Lautaro", "esCorrecta": false}
+            { "texto": "Lautaro", "esCorrecta": true}
         ]
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "doctor lautaro", "esCorrecta": false},
@@ -65,6 +91,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "Jose", "esCorrecta": false},
@@ -74,6 +101,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "doctor lautaro", "esCorrecta": false},
@@ -83,6 +111,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "Jose", "esCorrecta": false},
@@ -92,24 +121,7 @@
     },
     {
         "pregunta": "",
-        "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
-        ]
-    },
-    {
-        "pregunta": "",
-        "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "Jose", "esCorrecta": false},
-            { "texto": "Pedro", "esCorrecta": false},
-            { "texto": "Lautaro", "esCorrecta": false}
-        ]
-    },
-    {
-        "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "doctor lautaro", "esCorrecta": false},
@@ -120,6 +132,7 @@
 
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "Jose", "esCorrecta": false},
@@ -129,6 +142,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "doctor lautaro", "esCorrecta": false},
@@ -138,6 +152,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "Jose", "esCorrecta": false},
@@ -147,6 +162,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "doctor lautaro", "esCorrecta": false},
@@ -156,6 +172,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "Jose", "esCorrecta": false},
@@ -165,6 +182,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "doctor lautaro", "esCorrecta": false},
@@ -174,6 +192,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "Jose", "esCorrecta": false},
@@ -183,6 +202,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "doctor lautaro", "esCorrecta": false},
@@ -192,6 +212,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "Jose", "esCorrecta": false},
@@ -201,6 +222,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "doctor lautaro", "esCorrecta": false},
@@ -210,6 +232,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "Jose", "esCorrecta": false},
@@ -219,6 +242,7 @@
     },
     {
         "pregunta": "",
+        "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
             { "texto": "verdad", "esCorrecta": true},
             { "texto": "doctor lautaro", "esCorrecta": false},

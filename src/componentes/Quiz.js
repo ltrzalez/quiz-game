@@ -40,18 +40,26 @@ function Quiz () {
     }      
     userInput ? manejarExplicacion() : proximoTurno()    
   }
+
+  function reiniciarJuego() {
+    setPreguntaActual(0);setiarPuntaje(0);setMostrarResultado(false);manejarExplicacion();
+  }
   
   return (
       <div >
         { mostrarResultado
           ? (<div className='score-section'>
               tu puntaje fue {puntaje} de {preguntasConRespuestas.length} preguntas
-              <button onClick={_ => {setPreguntaActual(0);setiarPuntaje(0);setMostrarResultado(false);manejarExplicacion()}}>Volver a jugar</button>
+              <button onClick={_ => {reiniciarJuego()}}>Volver a jugar</button>
             </div>)
           : 
           (
             explicacion
-              ? (<div>{preguntasConRespuestas[preguntaActual].explicacion}
+              ? (<div>
+                  <h4>Advinaste!</h4>
+                  <span>
+                    {preguntasConRespuestas[preguntaActual].explicacion}
+                  </span>
                   <button onClick={() => {manejarExplicacion(); proximoTurno()}}>Proxima pregunta</button>
                 </div>)
               :
