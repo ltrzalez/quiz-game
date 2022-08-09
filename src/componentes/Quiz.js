@@ -48,8 +48,11 @@ function Quiz () {
   return (
       <div >
         { mostrarResultado
-          ? (<div className='score-section'>
+          ? (<div className='question-section'>
               tu puntaje fue {puntaje} de {preguntasConRespuestas.length} preguntas
+              <div className='question-text'>
+                ¡ Tenes que responder todas bien para ganar el premio !
+              </div>
               <button onClick={_ => {reiniciarJuego()}}>Volver a jugar</button>
             </div>)
           : 

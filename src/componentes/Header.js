@@ -2,7 +2,7 @@ function Header () {
     return (
         <div >
           <header >
-              <h1>Juego de cumpleagnos</h1>
+              <h1>EL 25 de Pregunta'</h1>
           </header>
           <br/>
         </div>
