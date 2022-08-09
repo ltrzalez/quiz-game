@@ -53,30 +53,30 @@
         "pregunta": "¿Cual es el nombre de el ateo?",
         "explicacion": "y no tiene segundo nombre",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "Jose", "esCorrecta": false},
-            { "texto": "Pedro", "esCorrecta": false},
-            { "texto": "Lautaro", "esCorrecta": false}
-        ]
-    },
-    {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
-        "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
-        ]
-    },
-    {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
-        "respuestas" : [
-            { "texto": "verdad", "esCorrecta": false},
-            { "texto": "Jose", "esCorrecta": false},
-            { "texto": "Pedro", "esCorrecta": false},
+            { "texto": "Lautaro Gonzalo", "esCorrecta": true},
+            { "texto": "Jose Pedro", "esCorrecta": false},
+            { "texto": "Pedro Lautaro", "esCorrecta": false},
             { "texto": "Lautaro", "esCorrecta": true}
+        ]
+    },
+    {
+        "pregunta": "Segun neognomo, las genenticas derivadas de kush saben/huelen a...",
+        "explicacion": "es asi porque lo dice el gran sebas",
+        "respuestas" : [
+            { "texto": "Pasteleria", "esCorrecta": true},
+            { "texto": "Asado", "esCorrecta": false},
+            { "texto": "Galletitas", "esCorrecta": false},
+            { "texto": "Citricos", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "Que laguna se ve desde el refugio Frey",
+        "explicacion": "En homenaje a uno de los primeros exploradores",
+        "respuestas" : [
+            { "texto": "Laguna Toncek", "esCorrecta": true},
+            { "texto": "Laguna Schmoll", "esCorrecta": false},
+            { "texto": "Laguna Tontek", "esCorrecta": false},
+            { "texto": "Laguna Shmaul", "esCorrecta": false}
         ]
     },
     {
@@ -241,13 +241,13 @@
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "Cual de estos nombres no es una linea de escalada",
+        "explicacion": "Si subis a al refugio frey y chusmias el libro de alpinismo chekias el dato",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
+            { "texto": "Señor de los anillos de cuero", "esCorrecta": false},
+            { "texto": "Deportivo Kerusa", "esCorrecta": false},
+            { "texto": "Pepi Sudorosa", "esCorrecta": false},
+            { "texto": "Transa Barilochense", "esCorrecta": true}
         ]
     }
 ]
