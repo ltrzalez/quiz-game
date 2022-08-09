@@ -2,9 +2,11 @@ function Header () {
     return (
         <div >
           <header >
-              <h1>Responde la correcta</h1>
+              <h1>Juego de cumpleagnos</h1>
           </header>
+          <br/>
         </div>
+        
       );
 }
 
