@@ -80,94 +80,93 @@
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "¿Cual no es un lenguaje de programacion?",
+        "explicacion": "C es del 70, hicieron algo con mas posibilidades C++, C# es la version de microsoft",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
+            { "texto": "C", "esCorrecta": false},
+            { "texto": "C#", "esCorrecta": false},
+            { "texto": "C!", "esCorrecta": true},
+            { "texto": "C++", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "El viejo Tom Bombadil es un sujeto sencillo...",
+        "explicacion": "https://www.taringa.net/+arte/tom-bombadil-yo-te-banco_gx35z",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "Jose", "esCorrecta": false},
-            { "texto": "Pedro", "esCorrecta": false},
-            { "texto": "Lautaro", "esCorrecta": false}
+            { "texto": "usa jean y fuma porrito", "esCorrecta": false},
+            { "texto": "usa pantalon azul y zapatos amarillos", "esCorrecta": true},
+            { "texto": "de chaqueta azul brillante y zapatos amarillos", "esCorrecta": false},
+            { "texto": "vive en el bosque y los hobbits son amigos", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "Quien de estos musico no estuvo con Miles en la isla de wight",
+        "explicacion": "claro, en realidad de llama Armando Anthony «Chick» Corea",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
+            { "texto": "Keith Jarrett", "esCorrecta": false},
+            { "texto": "Jack DeJohnette", "esCorrecta": false},
+            { "texto": "Dave Holland", "esCorrecta": false},
+            { "texto": "Chick Correa", "esCorrecta": true}
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "¿Cuantas bandas tuvo charly antes de ser solista?",
+        "explicacion": "Sui generis, La maquina de hacer pajaros, Seru Giran",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "Jose", "esCorrecta": false},
-            { "texto": "Pedro", "esCorrecta": false},
-            { "texto": "Lautaro", "esCorrecta": false}
+            { "texto": "3", "esCorrecta": true},
+            { "texto": "4", "esCorrecta": false},
+            { "texto": "2", "esCorrecta": false},
+            { "texto": "5", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "Cual es apto vegano",
+        "explicacion": "usted si que lee las etitquetas!!",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
-        ]
-    },
-
-    {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
-        "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "Jose", "esCorrecta": false},
-            { "texto": "Pedro", "esCorrecta": false},
-            { "texto": "Lautaro", "esCorrecta": false}
+            { "texto": "Las pepitos", "esCorrecta": true},
+            { "texto": "Dos Satur", "esCorrecta": false},
+            { "texto": "Pizza", "esCorrecta": false},
+            { "texto": "Sashimi", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "",
+        "pregunta": "¿En que barrio esta la cancha de all boys?",
         "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
+            { "texto": "Floresta", "esCorrecta": false},
+            { "texto": "Veles Sarfield", "esCorrecta": false},
+            { "texto": "Montecastro", "esCorrecta": true},
+            { "texto": "Devoto", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "",
+        "pregunta": "«Tal» «Eth» hacen  la palabra runica",
         "explicacion": "explicacion es de la banda de yamato",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "Jose", "esCorrecta": false},
-            { "texto": "Pedro", "esCorrecta": false},
-            { "texto": "Lautaro", "esCorrecta": false}
+            { "texto": "enigma", "esCorrecta": false},
+            { "texto": "sigilo", "esCorrecta": true},
+            { "texto": "hoja", "esCorrecta": false},
+            { "texto": "rima", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "El hombre es bueno pero...",
+        "explicacion": "Lo dijo Peron",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
+            { "texto": "controlado es mejor", "esCorrecta": true},
+            { "texto": "es un morboso metamorfo", "esCorrecta": false},
+            { "texto": "no es digno de confianza", "esCorrecta": false},
+            { "texto": "bajo precion hace maravillas", "esCorrecta": false}
+        ]
+    },
+    {
+        "pregunta": "¿Cual no es una frase de la asesina de D2?",
+        "explicacion": "Oscuro... perfecto dice al entrar a la guarida del mal",
+        "respuestas" : [
+            { "texto": "Serpientes! Esperaba algo peor", "esCorrecta": false},
+            { "texto": "Oscuro.. que bien", "esCorrecta": true},
+            { "texto": "Todo lo que yo mato. Permance muerto", "esCorrecta": false},
+            { "texto": "Nunca me veran llegar", "esCorrecta": false}
         ]
     },
     {
