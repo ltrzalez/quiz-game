@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import preguntasConRespuestas from '../data.json'
 
 function Quiz () {
@@ -7,17 +7,21 @@ function Quiz () {
   const [preguntaActual, setPreguntaActual] = useState(0)
   const [mostrarResultado, setMostrarResultado] = useState(false)
   const [explicacion, setExplicacion ] = useState(false)
+  const [esGanador, setEsGanador ] = useState(false)
 
   function proximoTurno () {
     let proximaPreguntaIndex = preguntaActual + 1    
     setPreguntaActual(proximaPreguntaIndex)
   }
 
+
   function comprobarFinDeJuego() {
     let totalLength = preguntasConRespuestas.length
     if( preguntaActual + 1 !== totalLength) {
       return false
-    } else {
+    } else {      
+      console.log(esGanador)
+      console.log(puntaje)
       setMostrarResultado(true)
       manejarExplicacion()
       return true
@@ -36,25 +40,104 @@ function Quiz () {
   function manejarRespuesta (userInput) {
     procesarRespuesta(userInput)
     if (comprobarFinDeJuego()) {
+      //corto flujo de accion
       return
     }      
     userInput ? manejarExplicacion() : proximoTurno()    
   }
 
   function reiniciarJuego() {
-    setPreguntaActual(0);setiarPuntaje(0);setMostrarResultado(false);manejarExplicacion();
+    setPreguntaActual(0);setiarPuntaje(0);setMostrarResultado(false);manejarExplicacion();setEsGanador(false)
   }
+
+  useEffect(() => {
+  
+  }, [esGanador])
+  
+
+  // const GanoPerdio = () => {
+  //   return (
+  //     <>
+  //     {esGanador
+  //       ? (<div className='question-section'>
+  //       tu puntaje fue {puntaje} de {preguntasConRespuestas.length} preguntas
+  //       <div className='question-text'>
+  //         Sos el ganador!! 
+  //       </div>
+  //       <img alt='no hay dibujo del fer'></img>
+  //         <button onClick={_ => {reiniciarJuego()}}>Volver a jugar</button>
+  //       </div>) 
+  //       :(<div className='question-section'>
+  //             tu puntaje fue {puntaje} de {preguntasConRespuestas.length} preguntas
+  //             <div className='question-text'>
+  //               ¡ Tenes que responder todas bien para ganar el premio !
+  //             </div>
+  //             <button onClick={_ => {reiniciarJuego()}}>Volver a jugar</button>
+  //           </div>)}
+  //     </>
+  //   )
+  // }
+
+
+//   const Gano = _ => {
+//     return ( 
+//       <>
+//         <div className='question-section'>
+//           tu puntaje fue {puntaje} de {preguntasConRespuestas.length} preguntas
+//           <div className='question-text'>
+//   Sos el ganador!! 
+// </div>
+// <img alt='no hay dibujo del fer'></img>
+//           <button onClick={_ => {reiniciarJuego()}}>Volver a jugar</button>
+//         </div>
+//       </>
+//     )
+//   }
+  const GanooPerdio = _ => {
+    console.log('esGanador', esGanador)
+    console.log('esGanador puntaje', puntaje)
+    if(puntaje === 25) {
+      setEsGanador(true)
+    }
+    return ( 
+      <>
+        <div className='question-section'>
+          tu puntaje fue {puntaje} de {preguntasConRespuestas.length} preguntas
+          {esGanador ? 
+          <>
+                      <div className='question-text'>
+              Sos el ganador!! 
+            </div>
+            <img alt='no hay dibujo del fer'></img> 
+          </>
+           :
+           <>
+           <div className='question-text'>
+            ¡ Tenes que responder todas bien para ganar el premio !
+          </div>
+           </>}
+          <button onClick={_ => {reiniciarJuego()}}>Volver a jugar</button>
+        </div>
+      </>
+    )
+  }
+
+
+//   const Perdio = _ => {
+//     (<div className='question-section'>
+// tu puntaje fue {puntaje} de {preguntasConRespuestas.length} preguntas
+// <div className='question-text'>
+//             ¡ Tenes que responder todas bien para ganar el premio !
+//           </div>
+//   <button onClick={_ => {reiniciarJuego()}}>Volver a jugar</button>
+// </div>)
+//   }
+
   
   return (
       <div >
         { mostrarResultado
-          ? (<div className='question-section'>
-              tu puntaje fue {puntaje} de {preguntasConRespuestas.length} preguntas
-              <div className='question-text'>
-                ¡ Tenes que responder todas bien para ganar el premio !
-              </div>
-              <button onClick={_ => {reiniciarJuego()}}>Volver a jugar</button>
-            </div>)
+          ? ( <GanooPerdio/>)
           : 
           (
             explicacion
