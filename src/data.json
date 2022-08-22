@@ -1,7 +1,7 @@
 [
     {
         "pregunta": "¿quien no esta en la banda de kakashi?",
-        "explicacion": "lo que pasea es que es la banda de yamato",
+        "explicacion": "lo que pasa es que es la banda de yamato",
         "respuestas" : [
             { "texto": "sai", "esCorrecta": true},
             { "texto": "naruto", "esCorrecta": false},
@@ -53,7 +53,7 @@
         "pregunta": "¿Cual es el nombre de el ateo?",
         "explicacion": "y no tiene segundo nombre",
         "respuestas" : [
-            { "texto": "Lautaro Gonzalo", "esCorrecta": true},
+            { "texto": "Lautaro Gonzalo", "esCorrecta": false},
             { "texto": "Jose Pedro", "esCorrecta": false},
             { "texto": "Pedro Lautaro", "esCorrecta": false},
             { "texto": "Lautaro", "esCorrecta": true}
@@ -140,8 +140,8 @@
         ]
     },
     {
-        "pregunta": "«Tal» «Eth» hacen  la palabra runica",
-        "explicacion": "clasico",
+        "pregunta": "«Tal» «Eth» hacen la palabra runica...",
+        "explicacion": "clasic",
         "respuestas" : [
             { "texto": "enigma", "esCorrecta": false},
             { "texto": "sigilo", "esCorrecta": true},
@@ -181,7 +181,7 @@
     },
     {
         "pregunta": "¿Que guitarrista no es ingles?",
-        "explicacion": "James Marshall «Jimi» Hendrix (born Johnny Allen Hendrix; November 27, 1942 – September 18, 1970) was an American guitarist, singer, and songwriter. The Rock and Roll Hall of Fame describes him as «arguably the greatest instrumentalist in the history of rock music».[1]",
+        "explicacion": "James Marshall «Jimi» Hendrix (born Johnny Allen Hendrix; November 27, 1942 - September 18, 1970) was an American guitarist, singer, and songwriter. The Rock and Roll Hall of Fame describes him as «arguably the greatest instrumentalist in the history of rock music».[1]",
         "respuestas" : [
             { "texto": "Jimi Hendrix", "esCorrecta": true},
             { "texto": "Jimmy Page", "esCorrecta": false},
@@ -220,23 +220,23 @@
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "Cual es el segundo nombre del efe",
+        "explicacion": "Si no me crees, preguntale a el",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
+            { "texto": "Luis", "esCorrecta": true},
+            { "texto": "Lui", "esCorrecta": false},
+            { "texto": "Lucio", "esCorrecta": false},
+            { "texto": "Luca", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "Cual es el segundo nombre del mito?",
+        "explicacion": "Si no me crees, preguntale a el",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "Jose", "esCorrecta": false},
-            { "texto": "Pedro", "esCorrecta": false},
-            { "texto": "Lautaro", "esCorrecta": false}
+            { "texto": "Daniel", "esCorrecta": true},
+            { "texto": "Danilo", "esCorrecta": false},
+            { "texto": "Dalmasio", "esCorrecta": false},
+            { "texto": "Dante", "esCorrecta": false}
         ]
     },
     {

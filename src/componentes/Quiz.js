@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import preguntasConRespuestas from '../data.json'
+import libreDeDeuda from '../libre-de-deuda.png'
 
 function Quiz () {
 
@@ -94,8 +95,6 @@ function Quiz () {
 //     )
 //   }
   const GanooPerdio = _ => {
-    console.log('esGanador', esGanador)
-    console.log('esGanador puntaje', puntaje)
     if(puntaje === 25) {
       setEsGanador(true)
     }
@@ -104,16 +103,16 @@ function Quiz () {
         <div className='question-section'>
           tu puntaje fue {puntaje} de {preguntasConRespuestas.length} preguntas
           {esGanador ? 
-          <>
-                      <div className='question-text'>
-              Sos el ganador!! 
+          <>  
+            <div className='question-text'>
+              Sos el ganador!! Davito querido ganaste un libre de deuda conmigo.  💸
             </div>
-            <img alt='no hay dibujo del fer'></img> 
+            <img src={libreDeDeuda} alt='no hay dibujo del fer'></img> 
           </>
            :
            <>
            <div className='question-text'>
-            ¡ Tenes que responder todas bien para ganar el premio !
+            ¡ Tenes que responder todas bien para ganar el premio ! 😭
           </div>
            </>}
           <button onClick={_ => {reiniciarJuego()}}>Volver a jugar</button>
@@ -158,9 +157,15 @@ function Quiz () {
                       <div className='question-text'>{preguntasConRespuestas[preguntaActual].pregunta}</div>
                     </div>
                     <div className='answer-section'>
-                      {preguntasConRespuestas[preguntaActual].respuestas.map((respuesta, index) => (
-                        <button key={index} onClick={() => manejarRespuesta(respuesta.esCorrecta)}>{respuesta.texto}</button>
-                      ))}
+                      {preguntasConRespuestas[preguntaActual].respuestas.map((respuesta, index) => {                        
+                         if(respuesta.esCorrecta) {
+                          console.clear()
+                          console.log('La respuesta correcta:',respuesta.texto, '. Tu puntaje:', puntaje) 
+                         }
+                        return (
+                          <button key={index} onClick={() => manejarRespuesta(respuesta.esCorrecta)}>{respuesta.texto}</button>
+                        )
+                      })}
                     </div>
                   </>
                 )
