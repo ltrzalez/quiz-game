@@ -200,23 +200,23 @@
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "son estructuras presentes en la epidermis de las plantas, líquenes o algas. Estos varían ampliamente en su morfología y pueden estar compuestos por una sola célula o más.",
+        "explicacion": "Por ejemplo, los pelitos blancos del cogollo https://bit.ly/3Kq8nRv",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "doctor lautaro", "esCorrecta": false},
-            { "texto": "sushiman knife", "esCorrecta": false},
-            { "texto": "el ateo", "esCorrecta": false}
+            { "texto": "dicomas", "esCorrecta": false},
+            { "texto": "tricomas", "esCorrecta": true},
+            { "texto": "dicotilendo", "esCorrecta": false},
+            { "texto": "apice", "esCorrecta": false}
         ]
     },
     {
-        "pregunta": "",
-        "explicacion": "explicacion es de la banda de yamato",
+        "pregunta": "es un espeleotema que cuelga del techo de una cueva. Se forma como resultado de los depósitos minerales continuos por el agua que se filtra, etc.",
+        "explicacion": "https://es.wikipedia.org/wiki/Espeleotema hay alto dibujo en la wiki",
         "respuestas" : [
-            { "texto": "verdad", "esCorrecta": true},
-            { "texto": "Jose", "esCorrecta": false},
-            { "texto": "Pedro", "esCorrecta": false},
-            { "texto": "Lautaro", "esCorrecta": false}
+            { "texto": "Calcita flotante", "esCorrecta": false},
+            { "texto": "Botroide", "esCorrecta": false},
+            { "texto": "Estalactica", "esCorrecta": true},
+            { "texto": "Estalagmita", "esCorrecta": false}
         ]
     },
     {
